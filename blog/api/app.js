@@ -11,10 +11,6 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use('/app', express.static('public'));
-
-
-
 const posts = [
   {id: 1, title: "tytuł", text: "Lorem ipsum"},
   {id: 2, title: "tytuł2", text: "Lorem ipsum2"},
